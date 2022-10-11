@@ -8,6 +8,6 @@ public class HomeController {
 
     @RequestMapping("/")
     public String showPage() {
-        return "main-menu";
+        return "WEB-INF/view/main-menu.jsp";
     }
 }
